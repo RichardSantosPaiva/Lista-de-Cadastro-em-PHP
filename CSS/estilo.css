@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    margin: 20rem auto 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    max-width: 375px;
+}
+
+.corrosel{
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.3);
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.img-container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
